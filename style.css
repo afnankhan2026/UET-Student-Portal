@@ -1,0 +1,48 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#home {
+    background: #f5f7fa;
+}
+
+#home img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+form {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+}
